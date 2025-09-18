@@ -2,15 +2,18 @@
   "name": "chiaorbackend_project",
   "version": "1.0.0",
   "description": "a backend project for beginner",
+  "type": "commonjs",
   "keywords": [
     "chai",
     "backend"
   ],
   "license": "ISC",
   "author": "Shivam Purohit",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
